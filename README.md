@@ -8,17 +8,19 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Guilherme Wagner de Mello Freire
+- Matricula: 877065
+- Proposta de projeto escolhida: Catálogo de Filmes
+- Breve descrição sobre seu projeto: O projeto "Catálogo de Filmes" é uma plataforma digital dedicada a reunir e apresentar uma vasta coleção de filmes de diferentes gêneros
 
 
 ## Print do esboço criada
 
 <<  COLOQUE A IMAGEM AQUI >>
+![alt text](Esboço.jpg)
 
 
 ## Print da home-page criada
 
 <<  COLOQUE A IMAGEM AQUI >>
+![alt text](Home-Page.png)

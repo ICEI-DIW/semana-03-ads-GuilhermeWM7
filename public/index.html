@@ -1,12 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Catálogo de Filmes</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <nav class="navbar">
+            <h1>Catálogo de Filmes</h1>
+            <input type="text" placeholder="Buscar filmes..." id="search">
+        </nav>
+
+        <section class="movie-list">
+            <h2>Lista de Filmes</h2>
+            <div class="filters">
+                <select id="genre-filter">
+                    <option value="">Todos os Gêneros</option>
+                    <option value="action">Ação</option>
+                    <option value="drama">Drama</option>
+                    <option value="comedy">Comédia</option>
+                </select>
+                <select id="year-filter">
+                    <option value="">Todos os Anos</option>
+                    <option value="2025">2025</option>
+                    <option value="2024">2024</option>
+                </select>
+            </div>
+    </header>
+
+    <main>
+        <section class="highlight">
+            <h2>Destaques Populares</h2>
+            <div class="movie-grid" id="popular-movies">
+                <div class="movie">
+                    <img src="Maverick.jpeg" alt="Top Gun: Maverick">
+                    <h3>Top Gun: Maverick</h3>
+                    <button class="favorite-btn">Favoritar</button>
+                </div>
+                <div class="movie">
+                    <img src="Milagre.jpg" alt="a espera de um milagre">
+                    <h3>A espera de um milagre</h3>
+                    <button class="favorite-btn">Favoritar</button>
+                </div>
+                <div class="movie">
+                    <img src="cola.jpg" alt="Vai que cola 2">
+                    <h3>Vai que cola</h3>
+                    <button class="favorite-btn">Favoritar</button>
+                </div>
+            </div>
+        </section>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Catálogo de Filmes</p>
+    </footer>
+
 </body>
 </html>
